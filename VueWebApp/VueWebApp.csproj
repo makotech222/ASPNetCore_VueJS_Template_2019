@@ -50,13 +50,6 @@
         <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       </ResolvedFileToPublish>
     </ItemGroup>
-	<ItemGroup>
-		<Exec Command="cmd.exe &quot;start http://localhost:8080&quot;" IgnoreExitCode="true" />
-	</ItemGroup>
-  </Target>
-  <Target Name="OpenBrowser" AfterTargets="PublishRunWebpack">
-    <Exec Command="cmd.exe &quot;start http://localhost:8080&quot;" IgnoreExitCode="true" />
-    
   </Target>
 
 </Project>
